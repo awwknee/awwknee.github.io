@@ -1,0 +1,114 @@
+body {
+  background-color: #4d5d53;
+}
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+#margin {
+  margin-top:3rem;
+  background: #738678;
+  overflow: hidden;
+}
+.top-bar, .top-bar ul {
+  background-color: #434b43;
+}
+a { color: #738678;}
+a:hover { color: #84a98c; }
+
+.center {
+  text-align: center;
+}
+
+p > a {
+  color:#486856;
+  font-weight: 500;
+}
+p > a:hover {
+  color:#5f967c;
+}
+
+p {
+  font-size: small;
+  color: #434b43;
+}
+ul {
+  font-size: small;
+  color: #434b43;
+  padding-right: 1rem;
+}
+
+.pad {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.project-links {
+  color:#486856;
+  font-weight: bold;
+  margin-left: 1rem;
+  
+}
+
+.project-links:hover { 
+  color:#5f967c;
+}
+
+
+hr {
+  border-color: #434b43;
+  margin-top: -.01rem; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 95%; 
+}
+
+.socials {
+  font-weight: bold;
+}
+
+h1 {
+  color:#434b43;
+  font-weight: bold;
+  font-size: large;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+h2 {
+  color:#434b43;
+  font-size: medium;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+h3 {
+  color:#434b43;
+  font-size: small;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pad-text {
+  margin:0.1rem;
+  color:#434b43;
+  font-size: small;
+}
+
+.pad-right {
+  padding-right:2rem;
+  padding-bottom: 1rem;
+  color:#434b43;
+  font-size: small;
+}
+
+.bold-text {
+  font-weight:bold;
+  color:#434b43;
+}
+
+.pad {
+  padding-left:1rem;
+}

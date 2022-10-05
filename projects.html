@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foundation Intro</title>
+	<link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/ani.css">
+</head>
+
+<body>
+
+
+    <section id="margin" class="container">
+        <section id="top-navigation" class="container">
+            <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+                <div class="title-bar-title">Menu</div>
+              </div>
+              
+              <div class="top-bar" id="responsive-menu">
+                <div class="top-bar-left">
+                  <ul style="font-size: medium;" class="dropdown menu" data-dropdown-menu>
+                    <li><a href="index.html" style = "color: black; font-weight: bolder;">ani's world ♡</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="fun.html">:D</a></li>
+                  </ul>
+                </div>
+              </div>
+
+        </section>
+        
+<hr style="margin-top: 1rem;">
+        <div class="grid-x">
+            <div class="cell large-3"> 
+                <a class="project-links" target= "_blank" href ="https://github.com/awwknee/LeagueBuddy">LeagueBuddy</a>
+            </div>
+            <div class="cell large-8"> 
+                <h2><i>(C#)</i></h2>
+                <ul> 
+                    <li>Program created to allow seamless interactions between the user and the league client.</li> 
+                    <li>Uses HTTP API’s and WebSocket’s to communicate and interact with the client.</li>
+                    <li>Built upon Windows Presentation Foundation, a XAML based UI framework.</li>
+                </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="grid-x">
+            <div class="cell large-3"> 
+                <a class="project-links" target= "_blank" href ="https://github.com/awwknee/Obesity-Project">Obesity Project</a>  
+            </div>
+            <div class="cell large-8"> 
+                <h2><i>(R)</i></h2>
+                <ul> 
+                    <li>Collaborated with a team to utilize data collected on life choices in Central and South American countries to predict obesity.</li> 
+                    <li>Analyzed key characteristics that can predict increases in the odds of obesity by using logistic regression models and backwards elimination.</li>
+                    <li>Presented finding from the project to peers</li>
+                </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="grid-x">
+            <div class="cell large-3"> 
+                <a class="project-links" target= "_blank" href ="https://github.com/awwknee/CoffeeKiosk">Coffee Kiosk</a>    
+            </div>
+            <div class="cell large-8"> 
+                <h2><i>(Java)</i></h2>
+                <ul> 
+                    <li>Created a program that allows user to shop and checkout items via a console interface.</li> 
+                    <li>Developed items that implement interface and inheritance to reduce code complexity.</li>
+                </ul>
+            </div>
+          </div>
+          <hr>
+          <div class="grid-x">
+            <div class="cell large-3"> 
+                <a class="project-links" target= "_blank" href ="https://github.com/awwknee/Futoshiki-Puzzle">Futoshiki-Puzzle </a>
+            </div>
+            <div class="cell large-8"> 
+                <h2><i>(Java)</i></h2>
+                <ul> 
+                    <li>Built a program that solves Futoshiki-Puzzle with the Fork/Join Java framework.</li> 
+                    <li>Has the ability to compare run time between solving sequentially or with parallelism.</li>
+                </ul>
+            </div>
+            <hr>
+          </div>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="container copyright">
+          <p style = "font-size: medium; color:black">copyright &copy; hippity hoppity this is ani's property 
+          </p>
+        </div>
+      </footer>
+
+
+
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor.js"></script>
+    <script src="js/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+</body>
+</html>
